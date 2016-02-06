@@ -30,9 +30,12 @@ public class WolfAi : MonoBehaviour
         pack = new List<GameObject>();
         sight = gameObject.GetComponent<Sight>();
         nav = gameObject.GetComponent<NavMeshAgent>();
+        nav.stoppingDistance = 2;
         player = GameObject.FindGameObjectWithTag("Player");
         roamTarget = new Vector3(0f, 0f, 0f);
         roamTarget = GeneratePos();
+        nav.SetDestination(roamTarget);
+        nav.speed = roamspeed;
     }
 
 
@@ -67,7 +70,11 @@ public class WolfAi : MonoBehaviour
         if (sight.packSighted == false && sight.playerSighted == false)
         {
             //roam
-            Roam();
+            if (nav.remainingDistance < nav.stoppingDistance || transform.position == nav.destination)
+            {
+                Roam();
+            }
+            
         }
     }
 
@@ -90,7 +97,6 @@ public class WolfAi : MonoBehaviour
             {
                 sight.Reset();
             }
-
         }            
         else
         {
@@ -99,27 +105,23 @@ public class WolfAi : MonoBehaviour
     }
     Vector3 GeneratePos()
     {
-        float minX = transform.position.x - 10;
-        float minZ = transform.position.z - 10;
+        float minX = transform.position.x - 20;
+        float maxX = transform.position.x + 20;
+        float minZ = transform.position.z - 20;
+        float maxZ = transform.position.z + 20;
 
-        Vector3 newVec = new Vector3(Random.Range(minX, -minX), gameObject.transform.position.y, Random.Range(minZ, -minZ));
+        Vector3 newVec = new Vector3(Random.Range(minX, maxX), gameObject.transform.position.y, Random.Range(minZ, maxZ));
 
         return newVec;
     }
     void Roam()
     {
-        nav.speed = roamspeed;
+        roamTarget = GeneratePos();
         nav.SetDestination(roamTarget);
-
-        if (nav.remainingDistance < nav.stoppingDistance)
-        {
-            roamTarget = GeneratePos();
-        }
-
     }
     void Flee()
     {
-
+        Debug.Log("Flee");
     }
 
     public void Attack()

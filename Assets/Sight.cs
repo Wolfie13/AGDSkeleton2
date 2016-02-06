@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class Sight : MonoBehaviour {
 
-    public float fov = 110f;
+    public float fov = 120f;
     public Vector3 lastPersonalSighting;
     public bool playerSighted;
     public bool packSighted;
@@ -50,23 +50,29 @@ public class Sight : MonoBehaviour {
 
     void OnTriggerStay(Collider other)
     {
+
         if(other.gameObject == player)
         {
-            playerSighted = false;
-
             Vector3 direction = other.transform.position - transform.position;
             float angle = Vector3.Angle(direction, transform.forward);
+
             if(angle < fov * 0.5f)
             {
                 RaycastHit hit;
 
-                if(Physics.Raycast(transform.position + transform.up, direction.normalized, out hit, col.radius))
+                if(Physics.Raycast(transform.position +  transform.up / 2, direction.normalized, out hit, col.radius))
                 {
                     if(hit.collider.gameObject == player)
                     {
+                        Debug.Log("hit");
                         playerSighted = true;
                         lastPackSighting.lastWolfSighting = player.transform.position;
                     }
+                    else
+                    {
+                        playerSighted = false;
+                    }
+                    
                 }
             }
         }

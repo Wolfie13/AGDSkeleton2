@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Trigger : MonoBehaviour 
+public class CapsuleTrigger : MonoBehaviour 
 {
     public CapsuleCollider cap;
 
