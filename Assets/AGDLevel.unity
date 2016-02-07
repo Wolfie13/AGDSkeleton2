@@ -756,7 +756,6 @@ GameObject:
   - 54: {fileID: 624578057}
   - 195: {fileID: 624578056}
   - 114: {fileID: 624578055}
-  - 33: {fileID: 624578058}
   - 135: {fileID: 624578061}
   m_Layer: 0
   m_Name: 3rd Person Controller
@@ -831,13 +830,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!33 &624578058
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 624578053}
-  m_Mesh: {fileID: 0}
 --- !u!114 &624578059
 MonoBehaviour:
   m_ObjectHideFlags: 0
