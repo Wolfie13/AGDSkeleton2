@@ -74,7 +74,7 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
     tileSizeHint: 0
-  m_NavMesh: {fileID: 0}
+  m_NavMesh: {fileID: 19400000, guid: 7f0662e287e3a4f4b8670afe133af6eb, type: 2}
 --- !u!1 &9305588
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +507,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 106214095}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
-  m_LocalPosition: {x: 380.700012, y: 10, z: 1187.09998}
+  m_LocalPosition: {x: 380.700012, y: 8.21500015, z: 1187.09998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1483363603}
@@ -12636,7 +12636,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 4294967263
   m_IsActive: 1
 --- !u!154 &2125128242
 TerrainCollider:
