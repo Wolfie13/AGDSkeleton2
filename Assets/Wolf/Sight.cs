@@ -7,7 +7,7 @@ public class Sight : MonoBehaviour {
     public float fov = 120f;
     public Vector3 lastPersonalSighting;
     public bool playerSighted;
-    public bool packSighted;
+    public bool packSighted = false;
 
     private SphereCollider col;
     private Animator anim;

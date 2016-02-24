@@ -7,16 +7,16 @@ public class BearCapsuleTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-
+            gameObject.GetComponentInParent<BearAi>().Attack();
         }
     }
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-
+            gameObject.GetComponentInParent<BearAi>().StopAttack();
         }
     }
 
