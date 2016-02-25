@@ -1,17 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Cave : MonoBehaviour {
+public class Cave : MonoBehaviour 
+{
 
+    public SphereCollider col;
 
-	// Use this for initialization
-	void Start () 
+    void OnTriggerEnter(Collider other)
     {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        if (other.gameObject.tag == "Player")
+        {
+            gameObject.GetComponentInParent<BearAi>().Alert(other.gameObject.transform.position);
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            gameObject.GetComponentInParent<BearAi>().Return();
+        }
+    }
 }

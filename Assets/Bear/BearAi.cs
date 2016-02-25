@@ -12,12 +12,16 @@ public class BearAi : MonoBehaviour {
     private float roamspeed = 3f;
     [SerializeField(), Range(0f, 10f)]
     private float chaseWait = 5f;
+    [SerializeField(), Range(0f, 10f)]
+    private float AlertWait = 5f;
 
     private float chaseTime;
     private float roamTime;
+    private float alertTime;
     private NavMeshAgent nav;
     private Vector3 roamTarget;
     private GameObject player;
+    private bool alert = false;
     
 
     void Start()
@@ -44,6 +48,16 @@ public class BearAi : MonoBehaviour {
             }
 
         }
+        if (alert)
+        {
+            alertTime += Time.deltaTime;
+            if (alertTime > AlertWait)
+            {
+                Return();
+                alertTime = 0;
+                alert = false;
+            }
+        }
     }
 
     void Chasing()
@@ -55,6 +69,7 @@ public class BearAi : MonoBehaviour {
             nav.destination = sight.lastPersonalSighting;
         }
 
+        alert = false;
         nav.speed = chasespeed;
 
         if (nav.remainingDistance < nav.stoppingDistance)
@@ -87,10 +102,17 @@ public class BearAi : MonoBehaviour {
         roamTarget = GeneratePos();
         nav.SetDestination(roamTarget);
     }
-    void Return()
+    public void Return()
     {
         Debug.Log("Return");
         nav.SetDestination(cave.transform.position);
+    }
+
+    public void Alert(Vector3 pos)
+    {
+        nav.Stop();
+        nav.SetDestination(pos);
+        alert = true;
     }
 
     public void Attack()
