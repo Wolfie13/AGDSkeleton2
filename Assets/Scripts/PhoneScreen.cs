@@ -12,6 +12,7 @@ public class PhoneScreen : MonoBehaviour {
 		displayMessage ("#BlameHans\n#BlameWill", Color.red);
 		displayMessage ("I'm behind u and very...\nSpoookyyyyyy", Color.grey);
 		displayMessage ("MEMES", Color.black);
+		updateTime ("12:23");
 	}
 
 	// Update is called once per frame
@@ -30,7 +31,7 @@ public class PhoneScreen : MonoBehaviour {
 	}
 
 	public void updateTime(string timeString) {
-		TextMesh time = GameObject.Find ("Time") as TextMesh;
+		TextMesh time = GameObject.Find ("Time").GetComponent<TextMesh>();
 		if (time != null) {
 			time.text = timeString;
 		}
