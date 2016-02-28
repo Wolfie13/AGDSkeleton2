@@ -46,7 +46,6 @@ public class PhoneScreen : MonoBehaviour {
 			accumulatedHeight += (currentMessage.getHeight() / 2) + 0.1f;
 			currentMessage.transform.localPosition = new Vector3(0, accumulatedHeight, -2);
 			accumulatedHeight += (currentMessage.getHeight() / 2) + 0.1f;
-			Debug.Log(accumulatedHeight);
 			currentNode = currentNode.Next;
 			if (accumulatedHeight > 12) {
 				messages.Remove(currentMessage);
