@@ -28,7 +28,7 @@ public class WolfAi : MonoBehaviour
     void Start()
     {
         pack = new List<GameObject>();
-        sight = gameObject.GetComponent<Sight>();
+        sight = this.gameObject.GetComponent<Sight>();
         nav = gameObject.GetComponent<NavMeshAgent>();
         nav.stoppingDistance = 2;
         player = GameObject.FindGameObjectWithTag("Player");
