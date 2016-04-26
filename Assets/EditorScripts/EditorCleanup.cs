@@ -26,14 +26,20 @@ public class EditorCleanup : UnityEditor.EditorWindow {
 		if (GUILayout.Button ("Clean Up")) {
 			GameObject[] objects = GameObject.FindObjectsOfType<GameObject>();
 			foreach (GameObject g in objects) {
-				if (g.name.Contains("pCube"))
+				//if (g.name.Contains("pCube"))
 				{
-					if (g.transform.childCount == 0)
+					//if (g.transform.childCount == 0)
 					{
-						Debug.Log(g.name + " " + g.GetComponents<Component>().Length);
-						if (g.GetComponents<Component>().Length == 1) {
-							//DestroyImmediate(g);
+						//if (g.GetComponents<Component>().Length == 2)
+						{
+							if (g.GetComponent<Animator>() != null) {
+								Debug.Log(g.name + " " + g.GetComponents<Component>().Length);
+								//DestroyImmediate(g.GetComponent<Animator>());
+							}
 						}
+						/*if (g.GetComponents<Component>().Length == 1) {
+							DestroyImmediate(g);
+						}*/
 					}
 				}
 			}
