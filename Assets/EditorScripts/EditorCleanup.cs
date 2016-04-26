@@ -14,7 +14,7 @@ public class EditorCleanup : UnityEditor.EditorWindow {
 	
 	}
 
-	//[MenuItem("Window/Cleanup")]
+	[MenuItem("Window/Cleanup")]
 	public static void ShowWindow()
 	{
 		//Show existing window instance. If one doesn't exist, make one.
