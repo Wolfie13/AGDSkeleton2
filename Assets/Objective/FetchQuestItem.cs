@@ -12,4 +12,12 @@ public class FetchQuestItem : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	void OnTriggerEnter(Collider other) {
+		if (other.gameObject.GetComponent<Player> () != null) {
+			FetchQuestManager fqm = GameObject.FindObjectOfType<FetchQuestManager>();
+			fqm.Collect();
+			Destroy(this.gameObject);
+		}
+	}
 }
