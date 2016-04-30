@@ -1,48 +1,51 @@
 fileFormatVersion: 2
-guid: 8b27d03a49e0e7f4290c8a1faa27f282
+guid: 1a08705a6191a4743a60ae96dc314b3f
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube13
-    100004: pCube14
-    100006: pCube15
-    100008: pCube16
-    100010: pCube17
-    100012: pCube74
-    100014: pCube75
-    100016: pCube81
-    100018: pCube87
-    100020: transform196
-    100022: transform197
-    100024: transform198
-    100026: transform199
-    100028: transform200
-    100030: transform201
-    100032: transform202
-    100034: transform203
+    100002: pCube63
+    100004: pCube64
+    100006: pCube65
+    100008: pCube66
+    100010: pCube67
+    100012: pCube78
+    100014: pCube79
+    100016: pCube82
+    100018: pCube83
+    100020: pCube89
+    100022: transform212
+    100024: transform213
+    100026: transform214
+    100028: transform215
+    100030: transform216
+    100032: transform217
+    100034: transform218
+    100036: transform219
+    100038: transform220
     400000: //RootNode
-    400002: pCube13
-    400004: pCube14
-    400006: pCube15
-    400008: pCube16
-    400010: pCube17
-    400012: pCube74
-    400014: pCube75
-    400016: pCube81
-    400018: pCube87
-    400020: transform196
-    400022: transform197
-    400024: transform198
-    400026: transform199
-    400028: transform200
-    400030: transform201
-    400032: transform202
-    400034: transform203
-    2300000: pCube87
-    3300000: pCube87
-    4300000: pCube87
-    6400000: pCube87
+    400002: pCube63
+    400004: pCube64
+    400006: pCube65
+    400008: pCube66
+    400010: pCube67
+    400012: pCube78
+    400014: pCube79
+    400016: pCube82
+    400018: pCube83
+    400020: pCube89
+    400022: transform212
+    400024: transform213
+    400026: transform214
+    400028: transform215
+    400030: transform216
+    400032: transform217
+    400034: transform218
+    400036: transform219
+    400038: transform220
+    2300000: pCube89
+    3300000: pCube89
+    4300000: pCube89
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -65,7 +68,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

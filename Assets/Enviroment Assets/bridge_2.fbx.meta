@@ -1,48 +1,13 @@
 fileFormatVersion: 2
-guid: 8a6bf2536eced3b48874e23c976e0521
+guid: 2e550ac3f45ab234db6b55a6cad13dd6
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube58
-    100004: pCube59
-    100006: pCube60
-    100008: pCube61
-    100010: pCube62
-    100012: pCube76
-    100014: pCube77
-    100016: pCube80
-    100018: pCube88
-    100020: transform204
-    100022: transform205
-    100024: transform206
-    100026: transform207
-    100028: transform208
-    100030: transform209
-    100032: transform210
-    100034: transform211
     400000: //RootNode
-    400002: pCube58
-    400004: pCube59
-    400006: pCube60
-    400008: pCube61
-    400010: pCube62
-    400012: pCube76
-    400014: pCube77
-    400016: pCube80
-    400018: pCube88
-    400020: transform204
-    400022: transform205
-    400024: transform206
-    400026: transform207
-    400028: transform208
-    400030: transform209
-    400032: transform210
-    400034: transform211
-    2300000: pCube88
-    3300000: pCube88
-    4300000: pCube88
-    6400000: pCube88
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube110
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -65,7 +30,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
