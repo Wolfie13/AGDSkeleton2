@@ -13,6 +13,10 @@ public class ItemInventory : MonoBehaviour {
 	
 	}
 
+	void Deselect() {
+		items [selectedItem].gameObject.SetActive (false);
+	}
+
 	void SelectItem(int num) {
 		if (items.Count > num) {
 			items[selectedItem].gameObject.SetActive(false);
@@ -53,10 +57,14 @@ public class ItemInventory : MonoBehaviour {
 			}
 		}
 
+		if (Input.GetKeyDown (KeyCode.Alpha1)) {
+			Deselect();
+		}
+
 		//Check all the number keys on the keyboard.
-		for ( int i = 0; i < 10; ++i )
+		for ( int i = 0; i < 9; ++i )
 		{
-			if ( Input.GetKeyDown( KeyCode.Alpha1 + i ) )
+			if ( Input.GetKeyDown( KeyCode.Alpha2 + i ) )
 			{
 				SelectItem(i);
 			}

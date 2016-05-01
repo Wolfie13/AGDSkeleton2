@@ -4,143 +4,73 @@ using System.Collections.Generic;
 
 public class WolfAi : MonoBehaviour
 {
-
-    public Sight sight;
-    public int packsize = 15;
-
-    [SerializeField(), Range(0f, 10f)]
-    private float chasespeed = 5f;
-    [SerializeField(), Range(0f, 10f)]
-    private float roamspeed = 3f;
-    [SerializeField(), Range(0f, 10f)]
-    private float chaseWait = 5f;
-    [SerializeField(), Range(0f, 10f)]
-    private float packChaseWait = 5f;
-
-    private float chaseTime;
-    private float roamTime;
-    private float packChaseTime;
-    private List<GameObject> pack;
     private NavMeshAgent nav;
-    private Vector3 roamTarget;
-    private GameObject player;
+    private Player player;
+	public bool debugMode = false;
 
-    void Start()
+	public AudioClip screechSound = null;
+	public AudioClip attackSound = null;
+	public AudioClip deathSound = null;
+
+	public float health;
+
+	private float stunTime = 0;
+
+	const float ATTACK_DELAY = 2;
+	float attackCoolDown = -1;
+
+	float lastDistance = 0;
+
+    void Awake()
     {
-        pack = new List<GameObject>();
-        sight = this.gameObject.GetComponent<Sight>();
         nav = gameObject.GetComponent<NavMeshAgent>();
-        nav.stoppingDistance = 2;
-        player = GameObject.FindGameObjectWithTag("Player");
-        roamTarget = new Vector3(0f, 0f, 0f);
-        roamTarget = GeneratePos();
-        nav.SetDestination(roamTarget);
-        nav.speed = roamspeed;
+		player = GameObject.FindObjectOfType<Player> ();
     }
+
+	public void Stun(float seconds)
+	{
+		stunTime = seconds;
+	}
 
 
     void Update()
     {
-        if (sight.playerSighted)
-        {
-            if (pack.Count > 3)
-            {
-                sight.AlertPack(pack);
-                //chase
-                Chasing();
-            }
-            else
-            {
-                Flee();
-            }
-        }
-        if (sight.playerSighted == false && sight.packSighted == true)
-        {
-            //follow pack
-            Chasing();
-            packChaseTime += Time.deltaTime;
-            if(packChaseTime >= packChaseWait)
-            {
-                //stop chase
-                sight.packSighted = false;
-                packChaseTime = 0f;
-            }
+		if (health < 0) {
+			return;
+		}
+		if (stunTime < 0) {
+			nav.SetDestination (player.transform.position);
+			float distanceToPlayer = Vector3.Distance (player.transform.position, this.transform.position);
+			if (distanceToPlayer < 10) {
+				if (lastDistance < 15) {
+					if (lastDistance > 15) { //If we ended up within 10 metres on this frame.
+						//Play spooky wolf bark.
+						//AudioSource.PlayClipAtPoint(screechSound, this.transform.position);
+					}
+				}
+				nav.speed = 4;
+				if (distanceToPlayer < 2) {
+					Attack ();
+				}
+			} else {
+				nav.speed = 9;
+			}
+			
+			if (attackCoolDown > 0) {
+				attackCoolDown -= Time.deltaTime;
+			}
 
-        }
-        if (sight.packSighted == false && sight.playerSighted == false)
-        {
-            //roam
-            if (nav.remainingDistance < nav.stoppingDistance || transform.position == nav.destination)
-            {
-                Roam();
-            }
-            
-        }
+			lastDistance = distanceToPlayer;
+		} else {
+			stunTime -= Time.deltaTime;
+		}
     }
 
-    void Chasing()
-    {
-        Vector3 toPlayer = sight.lastPersonalSighting - transform.position;
-
-        if(toPlayer.sqrMagnitude > 4f)
-        {
-            nav.destination = sight.lastPersonalSighting;
-        }
-
-        nav.speed = chasespeed;
-
-        if (nav.remainingDistance < nav.stoppingDistance)
-        {
-            chaseTime += Time.deltaTime;
-
-            if (chaseTime >= chaseWait && sight.packSighted == false)
-            {
-                sight.Reset();
-            }
-        }            
-        else
-        {
-            chaseTime = 0f;
-        }
-    }
-    Vector3 GeneratePos()
-    {
-        float minX = transform.position.x - 20;
-        float maxX = transform.position.x + 20;
-        float minZ = transform.position.z - 20;
-        float maxZ = transform.position.z + 20;
-
-        Vector3 newVec = new Vector3(Random.Range(minX, maxX), gameObject.transform.position.y, Random.Range(minZ, maxZ));
-
-        return newVec;
-    }
-    void Roam()
-    {
-        roamTarget = GeneratePos();
-        nav.SetDestination(roamTarget);
-    }
-    void Flee()
-    {
-        Debug.Log("Flee");
-    }
-
-    public void Attack()
-    {
-        nav.Stop();
-    }
-    public void StopAttack()
-    {
-        nav.Resume();
-    }
-    public void AddPack(GameObject wolf)
-    {
-        pack.Add(wolf);
-    }
-    public void RemoveWolf(GameObject wolf)
-    {
-        if (pack.Contains(wolf))
-        {
-            pack.Remove(wolf);
-        }
-    }
+	void Attack() {
+		if (attackCoolDown < 0) {
+			Debug.Log ("munch!");
+			player.health -= 35;
+			attackCoolDown = ATTACK_DELAY;
+		}
+	}
 }
