@@ -12,7 +12,9 @@ public class WolfAi : MonoBehaviour
 	public AudioClip attackSound = null;
 	public AudioClip deathSound = null;
 
-	public float health;
+	public Animator anim;
+
+	public float health = 100;
 
 	private float stunTime = 0;
 
@@ -21,10 +23,14 @@ public class WolfAi : MonoBehaviour
 
 	float lastDistance = 0;
 
+	Vector3 spawnPoint = Vector3.zero;
+
     void Awake()
     {
         nav = gameObject.GetComponent<NavMeshAgent>();
 		player = GameObject.FindObjectOfType<Player> ();
+		spawnPoint = this.transform.position;
+		anim.SetBool ("active", true);
     }
 
 	public void Stun(float seconds)
@@ -36,20 +42,29 @@ public class WolfAi : MonoBehaviour
     void Update()
     {
 		if (health < 0) {
+			anim.SetBool("dead", true);
 			return;
 		}
+
+		float distanceToPlayer = Vector3.Distance (player.transform.position, this.transform.position);
+
 		if (stunTime < 0) {
-			nav.SetDestination (player.transform.position);
-			float distanceToPlayer = Vector3.Distance (player.transform.position, this.transform.position);
-			if (distanceToPlayer < 10) {
-				if (lastDistance < 15) {
-					if (lastDistance > 15) { //If we ended up within 10 metres on this frame.
-						//Play spooky wolf bark.
-						//AudioSource.PlayClipAtPoint(screechSound, this.transform.position);
-					}
+
+			if (nav.remainingDistance > 100 && Vector3.Distance(this.transform.position, spawnPoint) > 200)	{
+				nav.SetDestination(spawnPoint);
+			} else {
+				nav.SetDestination (player.transform.position);
+			}
+
+			if (distanceToPlayer < 15) {
+				if (lastDistance > 15) { //If we ended up within 10 metres on this frame.
+					//Play spooky wolf bark.
+					AudioSource.PlayClipAtPoint(screechSound, this.transform.position);
 				}
+			}
+			if (distanceToPlayer < 10) {
 				nav.speed = 4;
-				if (distanceToPlayer < 2) {
+				if (distanceToPlayer < 1) {
 					Attack ();
 				}
 			} else {
@@ -60,16 +75,19 @@ public class WolfAi : MonoBehaviour
 				attackCoolDown -= Time.deltaTime;
 			}
 
-			lastDistance = distanceToPlayer;
 		} else {
 			stunTime -= Time.deltaTime;
 		}
+
+		lastDistance = distanceToPlayer;
     }
 
 	void Attack() {
 		if (attackCoolDown < 0) {
 			Debug.Log ("munch!");
 			player.health -= 35;
+			anim.SetTrigger("attack");
+			AudioSource.PlayClipAtPoint (attackSound, this.transform.position);
 			attackCoolDown = ATTACK_DELAY;
 		}
 	}

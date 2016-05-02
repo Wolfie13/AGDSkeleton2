@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: 48d764db47cd42548bac365b6c14048a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Finger0
+    100014: Bip001 L Finger0Nub
+    100016: Bip001 L Finger1
+    100018: Bip001 L Finger1Nub
+    100020: Bip001 L Finger2
+    100022: Bip001 L Finger2Nub
+    100024: Bip001 L Finger3
+    100026: Bip001 L Finger3Nub
+    100028: Bip001 L Foot
+    100030: Bip001 L Forearm
+    100032: Bip001 L Hand
+    100034: Bip001 L HorseLink
+    100036: Bip001 L Thigh
+    100038: Bip001 L Toe0
+    100040: Bip001 L Toe0Nub
+    100042: Bip001 L Toe1
+    100044: Bip001 L Toe1Nub
+    100046: Bip001 L Toe2
+    100048: Bip001 L Toe2Nub
+    100050: Bip001 L Toe3
+    100052: Bip001 L Toe3Nub
+    100054: Bip001 L UpperArm
+    100056: Bip001 Neck
+    100058: Bip001 Neck1
+    100060: Bip001 Pelvis
+    100062: Bip001 Ponytail1
+    100064: Bip001 Ponytail11
+    100066: Bip001 Ponytail1Nub
+    100068: Bip001 Ponytail2
+    100070: Bip001 Ponytail21
+    100072: Bip001 Ponytail2Nub
+    100074: Bip001 R Calf
+    100076: Bip001 R Clavicle
+    100078: Bip001 R Finger0
+    100080: Bip001 R Finger0Nub
+    100082: Bip001 R Finger1
+    100084: Bip001 R Finger1Nub
+    100086: Bip001 R Finger2
+    100088: Bip001 R Finger2Nub
+    100090: Bip001 R Finger3
+    100092: Bip001 R Finger3Nub
+    100094: Bip001 R Foot
+    100096: Bip001 R Forearm
+    100098: Bip001 R Hand
+    100100: Bip001 R HorseLink
+    100102: Bip001 R Thigh
+    100104: Bip001 R Toe0
+    100106: Bip001 R Toe0Nub
+    100108: Bip001 R Toe1
+    100110: Bip001 R Toe1Nub
+    100112: Bip001 R Toe2
+    100114: Bip001 R Toe2Nub
+    100116: Bip001 R Toe3
+    100118: Bip001 R Toe3Nub
+    100120: Bip001 R UpperArm
+    100122: Bip001 Spine
+    100124: Bip001 Spine1
+    100126: Bip001 Spine2
+    100128: Bip001 Spine3
+    100130: Bip001 Tail
+    100132: Bip001 Tail1
+    100134: Bip001 Tail2
+    100136: Bip001 Tail3
+    100138: Bip001 TailNub
+    100140: Bip001 Xtra01
+    100142: Bip001 Xtra01Nub
+    100144: Bip001 Xtra02
+    100146: Bip001 Xtra02Nub
+    100148: Bip001 Xtra03
+    100150: Bip001 Xtra03Nub
+    100152: Bip001 Xtra04
+    100154: Bip001 Xtra04Nub
+    100156: Bip001 Xtra05
+    100158: Bip001 Xtra05Nub
+    100160: Bip001 Xtra05Opp
+    100162: Bip001 Xtra05OppNub
+    100164: bn_brow_L
+    100166: bn_brow_R
+    100168: bn_cheek_L
+    100170: bn_cheek_L_nub
+    100172: bn_cheek_R
+    100174: bn_cheek_R_nub
+    100176: bn_eye_L
+    100178: bn_eye_L_nub
+    100180: bn_eye_R
+    100182: bn_eye_R_nub
+    100184: bn_eyebrow_L_nub
+    100186: bn_eyebrow_R_nub
+    100188: bn_jaw
+    100190: bn_jaw_nub
+    100192: bn_lowerlid_L
+    100194: bn_lowerlid_L_nub
+    100196: bn_lowerlid_R
+    100198: bn_lowerlid_R_nub
+    100200: bn_naso_L
+    100202: bn_naso_L_nub
+    100204: bn_naso_R
+    100206: bn_naso_R_nub
+    100208: bn_nose_L
+    100210: bn_nose_L_nub
+    100212: bn_nose_R
+    100214: bn_nose_R_nub
+    100216: bn_upperlid_L
+    100218: bn_upperlid_L_nub
+    100220: bn_upperlid_R
+    100222: bn_upperlid_R_nub
+    100224: CNT_Face002
+    100226: CNT_Face003
+    100228: CNT_Face004
+    100230: CNT_Face005
+    100232: CNT_Face006
+    100234: CNT_Face009
+    100236: CNT_Face010
+    100238: CNT_Face011
+    100240: CNT_Face012
+    100242: CNT_Face013
+    100244: CNT_Face025
+    100246: CNT_Face026
+    100248: CNT_Face027
+    100250: CNT_Face028
+    100252: CNT_Face029
+    100254: CNT_Face030
+    100256: CNT_Face031
+    100258: CNT_Face032
+    100260: CNT_Face033
+    100262: CNT_Face034
+    100264: CNT_Face035
+    100266: CNT_Face036
+    100268: CNT_Face037
+    100270: CNT_Face038
+    100272: CNT_Face039
+    100274: CNT_Face040
+    100276: CNT_Face041
+    100278: CNT_Face042
+    100280: CNT_Face043
+    100282: CNT_Face044
+    100284: CNT_Face045
+    100286: CNT_Face046
+    100288: CNT_Face047
+    100290: CNT_Face048
+    100292: CNT_Face049
+    100294: CNT_Face050
+    100296: CNT_LipCorner001
+    100298: CNT_LipCorner002
+    100300: CNT_LipCorner003
+    100302: CNT_LipCorner004
+    100304: CNT_LipCorner005
+    100306: CNT_LipCorner006
+    100308: CNT_LipCorner007
+    100310: CNT_LipCorner008
+    100312: CNT_LipCorner009
+    100314: CNT_LipCorner010
+    100316: CNT_LipCorner011
+    100318: CNT_LipCorner012
+    100320: CNT_LipCorner019
+    100322: CNT_LipCorner020
+    100324: CNT_LipCorner021
+    100326: CNT_LipCorner022
+    100328: CNT_LipCorner023
+    100330: CNT_LipCorner024
+    100332: CNT_LipCorner031
+    100334: CNT_LipCorner032
+    100336: CNT_LipCorner033
+    100338: CNT_LipCorner034
+    100340: CNT_LipCorner035
+    100342: CNT_LipCorner036
+    100344: PT_ControlPos001
+    100346: PT_ControlPos002
+    100348: PT_ControlPos004
+    100350: PT_ControlPos005
+    100352: PT_ControlPos006
+    100354: PT_ControlPos007
+    100356: PT_ControlPos008
+    100358: PT_ControlPos009
+    100360: PT_ControlPos010
+    100362: PT_ControlPos011
+    100364: PT_ControlPos012
+    100366: PT_ControlPos013
+    100368: PT_ControlPos014
+    100370: PT_ControlPos015
+    100372: PT_ControlPos016
+    100374: PT_ControlPos017
+    100376: PT_ControlPos018
+    100378: PT_ControlPos019
+    100380: PT_ControlPos020
+    100382: PT_ControlPos021
+    100384: PT_ControlPos022
+    100386: PT_ControlPos023
+    100388: PT_ControlPos034
+    100390: PT_ControlPos035
+    100392: PT_ControlPos036
+    100394: PT_ControlPos037
+    100396: PT_ControlPos038
+    100398: PT_ControlPos039
+    100400: PT_ControlPos040
+    100402: PT_ControlPos041
+    100404: PT_ControlPos042
+    100406: PT_ControlPos043
+    100408: PT_ControlPos044
+    100410: PT_ControlPos045
+    100412: PT_ControlPos046
+    100414: PT_ControlPos047
+    100416: PT_ControlPos048
+    100418: PT_ControlPos049
+    100420: PT_ControlPos050
+    100422: PT_ControlPos051
+    100424: PT_ControlPos052
+    100426: PT_ControlPos053
+    100428: PT_ControlPos054
+    100430: PT_ControlPos055
+    100432: PT_ControlPos056
+    100434: PT_ControlPos057
+    100436: PT_ControlPos058
+    100438: PT_ControlPos059
+    100440: PT_ControlPos060
+    100442: PT_ControlPos061
+    100444: PT_ControlPos062
+    100446: PT_ControlPos063
+    100448: PT_ControlPos064
+    100450: PT_ControlPos065
+    100452: PT_ControlPos066
+    100454: PT_ControlPos067
+    100456: PT_ControlRoot001
+    100458: PT_ControlRoot002
+    100460: PT_ControlRoot004
+    100462: PT_ControlRoot005
+    100464: PT_ControlRoot006
+    100466: PT_ControlRoot007
+    100468: PT_ControlRoot008
+    100470: PT_ControlRoot009
+    100472: PT_ControlRoot010
+    100474: PT_ControlRoot011
+    100476: PT_ControlRoot012
+    100478: PT_ControlRoot013
+    100480: PT_ControlRoot014
+    100482: PT_ControlRoot015
+    100484: PT_ControlRoot016
+    100486: PT_ControlRoot017
+    100488: PT_ControlRoot018
+    100490: PT_ControlRoot019
+    100492: PT_ControlRoot020
+    100494: PT_ControlRoot021
+    100496: PT_ControlRoot022
+    100498: PT_ControlRoot023
+    100500: PT_ControlRoot034
+    100502: PT_ControlRoot035
+    100504: PT_ControlRoot036
+    100506: PT_ControlRoot037
+    100508: PT_ControlRoot038
+    100510: PT_ControlRoot039
+    100512: PT_ControlRoot040
+    100514: PT_ControlRoot041
+    100516: PT_ControlRoot042
+    100518: PT_ControlRoot043
+    100520: PT_ControlRoot044
+    100522: PT_ControlRoot045
+    100524: PT_ControlRoot046
+    100526: PT_ControlRoot047
+    100528: PT_ControlRoot048
+    100530: PT_ControlRoot049
+    100532: PT_ControlRoot050
+    100534: PT_ControlRoot051
+    100536: PT_ControlRoot052
+    100538: PT_ControlRoot053
+    100540: PT_ControlRoot054
+    100542: PT_ControlRoot055
+    100544: PT_ControlRoot056
+    100546: PT_ControlRoot057
+    100548: PT_ControlRoot058
+    100550: PT_ControlRoot059
+    100552: PT_ControlRoot060
+    100554: PT_ControlRoot061
+    100556: PT_ControlRoot062
+    100558: PT_ControlRoot063
+    100560: PT_ControlRoot064
+    100562: PT_ControlRoot065
+    100564: PT_ControlRoot066
+    100566: PT_ControlRoot067
+    100568: wolf_low(1)
+    100570: //RootNode
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Finger0
+    400014: Bip001 L Finger0Nub
+    400016: Bip001 L Finger1
+    400018: Bip001 L Finger1Nub
+    400020: Bip001 L Finger2
+    400022: Bip001 L Finger2Nub
+    400024: Bip001 L Finger3
+    400026: Bip001 L Finger3Nub
+    400028: Bip001 L Foot
+    400030: Bip001 L Forearm
+    400032: Bip001 L Hand
+    400034: Bip001 L HorseLink
+    400036: Bip001 L Thigh
+    400038: Bip001 L Toe0
+    400040: Bip001 L Toe0Nub
+    400042: Bip001 L Toe1
+    400044: Bip001 L Toe1Nub
+    400046: Bip001 L Toe2
+    400048: Bip001 L Toe2Nub
+    400050: Bip001 L Toe3
+    400052: Bip001 L Toe3Nub
+    400054: Bip001 L UpperArm
+    400056: Bip001 Neck
+    400058: Bip001 Neck1
+    400060: Bip001 Pelvis
+    400062: Bip001 Ponytail1
+    400064: Bip001 Ponytail11
+    400066: Bip001 Ponytail1Nub
+    400068: Bip001 Ponytail2
+    400070: Bip001 Ponytail21
+    400072: Bip001 Ponytail2Nub
+    400074: Bip001 R Calf
+    400076: Bip001 R Clavicle
+    400078: Bip001 R Finger0
+    400080: Bip001 R Finger0Nub
+    400082: Bip001 R Finger1
+    400084: Bip001 R Finger1Nub
+    400086: Bip001 R Finger2
+    400088: Bip001 R Finger2Nub
+    400090: Bip001 R Finger3
+    400092: Bip001 R Finger3Nub
+    400094: Bip001 R Foot
+    400096: Bip001 R Forearm
+    400098: Bip001 R Hand
+    400100: Bip001 R HorseLink
+    400102: Bip001 R Thigh
+    400104: Bip001 R Toe0
+    400106: Bip001 R Toe0Nub
+    400108: Bip001 R Toe1
+    400110: Bip001 R Toe1Nub
+    400112: Bip001 R Toe2
+    400114: Bip001 R Toe2Nub
+    400116: Bip001 R Toe3
+    400118: Bip001 R Toe3Nub
+    400120: Bip001 R UpperArm
+    400122: Bip001 Spine
+    400124: Bip001 Spine1
+    400126: Bip001 Spine2
+    400128: Bip001 Spine3
+    400130: Bip001 Tail
+    400132: Bip001 Tail1
+    400134: Bip001 Tail2
+    400136: Bip001 Tail3
+    400138: Bip001 TailNub
+    400140: Bip001 Xtra01
+    400142: Bip001 Xtra01Nub
+    400144: Bip001 Xtra02
+    400146: Bip001 Xtra02Nub
+    400148: Bip001 Xtra03
+    400150: Bip001 Xtra03Nub
+    400152: Bip001 Xtra04
+    400154: Bip001 Xtra04Nub
+    400156: Bip001 Xtra05
+    400158: Bip001 Xtra05Nub
+    400160: Bip001 Xtra05Opp
+    400162: Bip001 Xtra05OppNub
+    400164: bn_brow_L
+    400166: bn_brow_R
+    400168: bn_cheek_L
+    400170: bn_cheek_L_nub
+    400172: bn_cheek_R
+    400174: bn_cheek_R_nub
+    400176: bn_eye_L
+    400178: bn_eye_L_nub
+    400180: bn_eye_R
+    400182: bn_eye_R_nub
+    400184: bn_eyebrow_L_nub
+    400186: bn_eyebrow_R_nub
+    400188: bn_jaw
+    400190: bn_jaw_nub
+    400192: bn_lowerlid_L
+    400194: bn_lowerlid_L_nub
+    400196: bn_lowerlid_R
+    400198: bn_lowerlid_R_nub
+    400200: bn_naso_L
+    400202: bn_naso_L_nub
+    400204: bn_naso_R
+    400206: bn_naso_R_nub
+    400208: bn_nose_L
+    400210: bn_nose_L_nub
+    400212: bn_nose_R
+    400214: bn_nose_R_nub
+    400216: bn_upperlid_L
+    400218: bn_upperlid_L_nub
+    400220: bn_upperlid_R
+    400222: bn_upperlid_R_nub
+    400224: CNT_Face002
+    400226: CNT_Face003
+    400228: CNT_Face004
+    400230: CNT_Face005
+    400232: CNT_Face006
+    400234: CNT_Face009
+    400236: CNT_Face010
+    400238: CNT_Face011
+    400240: CNT_Face012
+    400242: CNT_Face013
+    400244: CNT_Face025
+    400246: CNT_Face026
+    400248: CNT_Face027
+    400250: CNT_Face028
+    400252: CNT_Face029
+    400254: CNT_Face030
+    400256: CNT_Face031
+    400258: CNT_Face032
+    400260: CNT_Face033
+    400262: CNT_Face034
+    400264: CNT_Face035
+    400266: CNT_Face036
+    400268: CNT_Face037
+    400270: CNT_Face038
+    400272: CNT_Face039
+    400274: CNT_Face040
+    400276: CNT_Face041
+    400278: CNT_Face042
+    400280: CNT_Face043
+    400282: CNT_Face044
+    400284: CNT_Face045
+    400286: CNT_Face046
+    400288: CNT_Face047
+    400290: CNT_Face048
+    400292: CNT_Face049
+    400294: CNT_Face050
+    400296: CNT_LipCorner001
+    400298: CNT_LipCorner002
+    400300: CNT_LipCorner003
+    400302: CNT_LipCorner004
+    400304: CNT_LipCorner005
+    400306: CNT_LipCorner006
+    400308: CNT_LipCorner007
+    400310: CNT_LipCorner008
+    400312: CNT_LipCorner009
+    400314: CNT_LipCorner010
+    400316: CNT_LipCorner011
+    400318: CNT_LipCorner012
+    400320: CNT_LipCorner019
+    400322: CNT_LipCorner020
+    400324: CNT_LipCorner021
+    400326: CNT_LipCorner022
+    400328: CNT_LipCorner023
+    400330: CNT_LipCorner024
+    400332: CNT_LipCorner031
+    400334: CNT_LipCorner032
+    400336: CNT_LipCorner033
+    400338: CNT_LipCorner034
+    400340: CNT_LipCorner035
+    400342: CNT_LipCorner036
+    400344: PT_ControlPos001
+    400346: PT_ControlPos002
+    400348: PT_ControlPos004
+    400350: PT_ControlPos005
+    400352: PT_ControlPos006
+    400354: PT_ControlPos007
+    400356: PT_ControlPos008
+    400358: PT_ControlPos009
+    400360: PT_ControlPos010
+    400362: PT_ControlPos011
+    400364: PT_ControlPos012
+    400366: PT_ControlPos013
+    400368: PT_ControlPos014
+    400370: PT_ControlPos015
+    400372: PT_ControlPos016
+    400374: PT_ControlPos017
+    400376: PT_ControlPos018
+    400378: PT_ControlPos019
+    400380: PT_ControlPos020
+    400382: PT_ControlPos021
+    400384: PT_ControlPos022
+    400386: PT_ControlPos023
+    400388: PT_ControlPos034
+    400390: PT_ControlPos035
+    400392: PT_ControlPos036
+    400394: PT_ControlPos037
+    400396: PT_ControlPos038
+    400398: PT_ControlPos039
+    400400: PT_ControlPos040
+    400402: PT_ControlPos041
+    400404: PT_ControlPos042
+    400406: PT_ControlPos043
+    400408: PT_ControlPos044
+    400410: PT_ControlPos045
+    400412: PT_ControlPos046
+    400414: PT_ControlPos047
+    400416: PT_ControlPos048
+    400418: PT_ControlPos049
+    400420: PT_ControlPos050
+    400422: PT_ControlPos051
+    400424: PT_ControlPos052
+    400426: PT_ControlPos053
+    400428: PT_ControlPos054
+    400430: PT_ControlPos055
+    400432: PT_ControlPos056
+    400434: PT_ControlPos057
+    400436: PT_ControlPos058
+    400438: PT_ControlPos059
+    400440: PT_ControlPos060
+    400442: PT_ControlPos061
+    400444: PT_ControlPos062
+    400446: PT_ControlPos063
+    400448: PT_ControlPos064
+    400450: PT_ControlPos065
+    400452: PT_ControlPos066
+    400454: PT_ControlPos067
+    400456: PT_ControlRoot001
+    400458: PT_ControlRoot002
+    400460: PT_ControlRoot004
+    400462: PT_ControlRoot005
+    400464: PT_ControlRoot006
+    400466: PT_ControlRoot007
+    400468: PT_ControlRoot008
+    400470: PT_ControlRoot009
+    400472: PT_ControlRoot010
+    400474: PT_ControlRoot011
+    400476: PT_ControlRoot012
+    400478: PT_ControlRoot013
+    400480: PT_ControlRoot014
+    400482: PT_ControlRoot015
+    400484: PT_ControlRoot016
+    400486: PT_ControlRoot017
+    400488: PT_ControlRoot018
+    400490: PT_ControlRoot019
+    400492: PT_ControlRoot020
+    400494: PT_ControlRoot021
+    400496: PT_ControlRoot022
+    400498: PT_ControlRoot023
+    400500: PT_ControlRoot034
+    400502: PT_ControlRoot035
+    400504: PT_ControlRoot036
+    400506: PT_ControlRoot037
+    400508: PT_ControlRoot038
+    400510: PT_ControlRoot039
+    400512: PT_ControlRoot040
+    400514: PT_ControlRoot041
+    400516: PT_ControlRoot042
+    400518: PT_ControlRoot043
+    400520: PT_ControlRoot044
+    400522: PT_ControlRoot045
+    400524: PT_ControlRoot046
+    400526: PT_ControlRoot047
+    400528: PT_ControlRoot048
+    400530: PT_ControlRoot049
+    400532: PT_ControlRoot050
+    400534: PT_ControlRoot051
+    400536: PT_ControlRoot052
+    400538: PT_ControlRoot053
+    400540: PT_ControlRoot054
+    400542: PT_ControlRoot055
+    400544: PT_ControlRoot056
+    400546: PT_ControlRoot057
+    400548: PT_ControlRoot058
+    400550: PT_ControlRoot059
+    400552: PT_ControlRoot060
+    400554: PT_ControlRoot061
+    400556: PT_ControlRoot062
+    400558: PT_ControlRoot063
+    400560: PT_ControlRoot064
+    400562: PT_ControlRoot065
+    400564: PT_ControlRoot066
+    400566: PT_ControlRoot067
+    400568: wolf_low(1)
+    400570: //RootNode
+    4300000: wolf_low(1)
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: wolf_low(1)
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Footsteps
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe0Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe1/Bip001 L Toe1Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe2/Bip001 L Toe2Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe3
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe3/Bip001 L Toe3Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe0Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe1/Bip001 R Toe1Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe2/Bip001 R Toe2Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe3
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe3/Bip001 R Toe3Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger0/Bip001 L Finger0Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger1/Bip001 L Finger1Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger2/Bip001 L Finger2Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger3
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger3/Bip001 L Finger3Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 HeadNub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Ponytail1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Ponytail1/Bip001 Ponytail11
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Ponytail1/Bip001 Ponytail11/Bip001
+          Ponytail1Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Ponytail2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Ponytail2/Bip001 Ponytail21
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Ponytail2/Bip001 Ponytail21/Bip001
+          Ponytail2Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/Bip001 Xtra01Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot009
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot009/PT_ControlPos009
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot009/PT_ControlPos009/CNT_Face009
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot015
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot015/PT_ControlPos015
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot015/PT_ControlPos015/CNT_LipCorner004
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot017
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot017/PT_ControlPos017
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot017/PT_ControlPos017/CNT_LipCorner006
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot018
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot018/PT_ControlPos018
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot018/PT_ControlPos018/CNT_LipCorner007
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot020
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot020/PT_ControlPos020
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot020/PT_ControlPos020/CNT_LipCorner009
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot022
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot022/PT_ControlPos022
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot022/PT_ControlPos022/CNT_LipCorner011
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot023
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot023/PT_ControlPos023
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra01/PT_ControlRoot023/PT_ControlPos023/CNT_LipCorner012
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra02
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/Bip001 Xtra02/Bip001 Xtra02Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_brow_L
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_brow_L/bn_eyebrow_L_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_brow_R
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_brow_R/bn_eyebrow_R_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_cheek_L
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_cheek_L/bn_cheek_L_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_cheek_R
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_cheek_R/bn_cheek_R_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_eye_L
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_eye_L/bn_eye_L_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_eye_R
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_eye_R/bn_eye_R_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_jaw
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_jaw/bn_jaw_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_lowerlid_L
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_lowerlid_L/bn_lowerlid_L_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_lowerlid_R
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_lowerlid_R/bn_lowerlid_R_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_naso_L
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_naso_L/bn_naso_L_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_naso_R
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_naso_R/bn_naso_R_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_nose_L
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_nose_L/bn_nose_L_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_nose_R
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_nose_R/bn_nose_R_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_upperlid_L
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_upperlid_L/bn_upperlid_L_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_upperlid_R
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/bn_upperlid_R/bn_upperlid_R_nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot001/PT_ControlPos001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot001/PT_ControlPos001/CNT_LipCorner001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot002
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot002/PT_ControlPos002
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot002/PT_ControlPos002/CNT_LipCorner002
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot004
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot004/PT_ControlPos004
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot004/PT_ControlPos004/CNT_Face002
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot005
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot005/PT_ControlPos005
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot005/PT_ControlPos005/CNT_Face003
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot006
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot006/PT_ControlPos006
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot006/PT_ControlPos006/CNT_Face004
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot007
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot007/PT_ControlPos007
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot007/PT_ControlPos007/CNT_Face005
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot008
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot008/PT_ControlPos008
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot008/PT_ControlPos008/CNT_Face006
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot010
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot010/PT_ControlPos010
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot010/PT_ControlPos010/CNT_Face010
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot011
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot011/PT_ControlPos011
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot011/PT_ControlPos011/CNT_Face011
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot012
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot012/PT_ControlPos012
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot012/PT_ControlPos012/CNT_Face012
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot013
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot013/PT_ControlPos013
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot013/PT_ControlPos013/CNT_Face013
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot014
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot014/PT_ControlPos014
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot014/PT_ControlPos014/CNT_LipCorner003
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot016
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot016/PT_ControlPos016
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot016/PT_ControlPos016/CNT_LipCorner005
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot019
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot019/PT_ControlPos019
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot019/PT_ControlPos019/CNT_LipCorner008
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot021
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot021/PT_ControlPos021
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot021/PT_ControlPos021/CNT_LipCorner010
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot034
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot034/PT_ControlPos034
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot034/PT_ControlPos034/CNT_LipCorner019
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot035
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot035/PT_ControlPos035
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot035/PT_ControlPos035/CNT_LipCorner020
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot036
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot036/PT_ControlPos036
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot036/PT_ControlPos036/CNT_Face034
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot036/PT_ControlPos036/CNT_Face035
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot037
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot037/PT_ControlPos037
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot037/PT_ControlPos037/CNT_Face036
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot037/PT_ControlPos037/CNT_LipCorner021
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot038
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot038/PT_ControlPos038
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot038/PT_ControlPos038/CNT_Face037
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot038/PT_ControlPos038/CNT_LipCorner022
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot039
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot039/PT_ControlPos039
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot039/PT_ControlPos039/CNT_Face038
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot040
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot040/PT_ControlPos040
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot040/PT_ControlPos040/CNT_Face039
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot041
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot041/PT_ControlPos041
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot041/PT_ControlPos041/CNT_Face040
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot041/PT_ControlPos041/CNT_Face041
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot042
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot042/PT_ControlPos042
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot042/PT_ControlPos042/CNT_Face042
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot043
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot043/PT_ControlPos043
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot043/PT_ControlPos043/CNT_Face043
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot043/PT_ControlPos043/CNT_LipCorner023
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot044
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot044/PT_ControlPos044
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot044/PT_ControlPos044/CNT_LipCorner024
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot045
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot045/PT_ControlPos045
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot045/PT_ControlPos045/CNT_Face044
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot046
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot046/PT_ControlPos046
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot046/PT_ControlPos046/CNT_Face045
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot047
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot047/PT_ControlPos047
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot047/PT_ControlPos047/CNT_Face046
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot048
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot048/PT_ControlPos048
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot048/PT_ControlPos048/CNT_Face047
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot049
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot049/PT_ControlPos049
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot049/PT_ControlPos049/CNT_Face048
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot050
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot050/PT_ControlPos050
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot050/PT_ControlPos050/CNT_Face049
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot051
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot051/PT_ControlPos051
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot051/PT_ControlPos051/CNT_Face050
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot052
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot052/PT_ControlPos052
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot053
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot053/PT_ControlPos053
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot053/PT_ControlPos053/CNT_LipCorner031
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot054
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot054/PT_ControlPos054
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot054/PT_ControlPos054/CNT_LipCorner032
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot055
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot055/PT_ControlPos055
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot055/PT_ControlPos055/CNT_Face025
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot056
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot056/PT_ControlPos056
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot056/PT_ControlPos056/CNT_LipCorner033
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot057
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot057/PT_ControlPos057
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot057/PT_ControlPos057/CNT_LipCorner034
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot058
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot058/PT_ControlPos058
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot058/PT_ControlPos058/CNT_Face026
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot059
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot059/PT_ControlPos059
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot059/PT_ControlPos059/CNT_Face027
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot060
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot060/PT_ControlPos060
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot060/PT_ControlPos060/CNT_Face028
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot061
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot061/PT_ControlPos061
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot061/PT_ControlPos061/CNT_Face029
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot062
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot062/PT_ControlPos062
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot062/PT_ControlPos062/CNT_LipCorner035
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot063
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot063/PT_ControlPos063
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot063/PT_ControlPos063/CNT_LipCorner036
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot064
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot064/PT_ControlPos064
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot064/PT_ControlPos064/CNT_Face030
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot065
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot065/PT_ControlPos065
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot065/PT_ControlPos065/CNT_Face031
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot066
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot066/PT_ControlPos066
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot066/PT_ControlPos066/CNT_Face032
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot067
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot067/PT_ControlPos067
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Neck1/Bip001 Head/PT_ControlRoot067/PT_ControlPos067/CNT_Face033
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger0/Bip001 R Finger0Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger1/Bip001 R Finger1Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger2/Bip001 R Finger2Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger3
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger3/Bip001 R Finger3Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Xtra03
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Xtra03/Bip001 Xtra03Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Xtra04
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Xtra04/Bip001 Xtra04Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Xtra05
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Xtra05/Bip001
+          Xtra05Nub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Xtra05Opp
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Xtra05Opp/Bip001
+          Xtra05OppNub
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Tail
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001 Tail2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001 Tail2/Bip001
+          Tail3
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001 Tail2/Bip001
+          Tail3/Bip001 TailNub
+        weight: 1
+      - path: wolf_low(1)
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

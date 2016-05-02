@@ -1,0 +1,513 @@
+fileFormatVersion: 2
+guid: 7d641cc3f6e8037438954f7240474364
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Finger0
+    100014: Bip001 L Finger0Nub
+    100016: Bip001 L Finger1
+    100018: Bip001 L Finger1Nub
+    100020: Bip001 L Finger2
+    100022: Bip001 L Finger2Nub
+    100024: Bip001 L Finger3
+    100026: Bip001 L Finger3Nub
+    100028: Bip001 L Foot
+    100030: Bip001 L Forearm
+    100032: Bip001 L Hand
+    100034: Bip001 L HorseLink
+    100036: Bip001 L Thigh
+    100038: Bip001 L Toe0
+    100040: Bip001 L Toe0Nub
+    100042: Bip001 L Toe1
+    100044: Bip001 L Toe1Nub
+    100046: Bip001 L Toe2
+    100048: Bip001 L Toe2Nub
+    100050: Bip001 L Toe3
+    100052: Bip001 L Toe3Nub
+    100054: Bip001 L UpperArm
+    100056: Bip001 Neck
+    100058: Bip001 Neck1
+    100060: Bip001 Pelvis
+    100062: Bip001 Ponytail1
+    100064: Bip001 Ponytail11
+    100066: Bip001 Ponytail1Nub
+    100068: Bip001 Ponytail2
+    100070: Bip001 Ponytail21
+    100072: Bip001 Ponytail2Nub
+    100074: Bip001 R Calf
+    100076: Bip001 R Clavicle
+    100078: Bip001 R Finger0
+    100080: Bip001 R Finger0Nub
+    100082: Bip001 R Finger1
+    100084: Bip001 R Finger1Nub
+    100086: Bip001 R Finger2
+    100088: Bip001 R Finger2Nub
+    100090: Bip001 R Finger3
+    100092: Bip001 R Finger3Nub
+    100094: Bip001 R Foot
+    100096: Bip001 R Forearm
+    100098: Bip001 R Hand
+    100100: Bip001 R HorseLink
+    100102: Bip001 R Thigh
+    100104: Bip001 R Toe0
+    100106: Bip001 R Toe0Nub
+    100108: Bip001 R Toe1
+    100110: Bip001 R Toe1Nub
+    100112: Bip001 R Toe2
+    100114: Bip001 R Toe2Nub
+    100116: Bip001 R Toe3
+    100118: Bip001 R Toe3Nub
+    100120: Bip001 R UpperArm
+    100122: Bip001 Spine
+    100124: Bip001 Spine1
+    100126: Bip001 Spine2
+    100128: Bip001 Spine3
+    100130: Bip001 Tail
+    100132: Bip001 Tail1
+    100134: Bip001 Tail2
+    100136: Bip001 Tail3
+    100138: Bip001 TailNub
+    100140: Bip001 Xtra01
+    100142: Bip001 Xtra01Nub
+    100144: Bip001 Xtra02
+    100146: Bip001 Xtra02Nub
+    100148: Bip001 Xtra03
+    100150: Bip001 Xtra03Nub
+    100152: Bip001 Xtra04
+    100154: Bip001 Xtra04Nub
+    100156: Bip001 Xtra05
+    100158: Bip001 Xtra05Nub
+    100160: Bip001 Xtra05Opp
+    100162: Bip001 Xtra05OppNub
+    100164: bn_brow_L
+    100166: bn_brow_R
+    100168: bn_cheek_L
+    100170: bn_cheek_L_nub
+    100172: bn_cheek_R
+    100174: bn_cheek_R_nub
+    100176: bn_eye_L
+    100178: bn_eye_L_nub
+    100180: bn_eye_R
+    100182: bn_eye_R_nub
+    100184: bn_eyebrow_L_nub
+    100186: bn_eyebrow_R_nub
+    100188: bn_jaw
+    100190: bn_jaw_nub
+    100192: bn_lowerlid_L
+    100194: bn_lowerlid_L_nub
+    100196: bn_lowerlid_R
+    100198: bn_lowerlid_R_nub
+    100200: bn_naso_L
+    100202: bn_naso_L_nub
+    100204: bn_naso_R
+    100206: bn_naso_R_nub
+    100208: bn_nose_L
+    100210: bn_nose_L_nub
+    100212: bn_nose_R
+    100214: bn_nose_R_nub
+    100216: bn_upperlid_L
+    100218: bn_upperlid_L_nub
+    100220: bn_upperlid_R
+    100222: bn_upperlid_R_nub
+    100224: CNT_Face002
+    100226: CNT_Face003
+    100228: CNT_Face004
+    100230: CNT_Face005
+    100232: CNT_Face006
+    100234: CNT_Face009
+    100236: CNT_Face010
+    100238: CNT_Face011
+    100240: CNT_Face012
+    100242: CNT_Face013
+    100244: CNT_Face025
+    100246: CNT_Face026
+    100248: CNT_Face027
+    100250: CNT_Face028
+    100252: CNT_Face029
+    100254: CNT_Face030
+    100256: CNT_Face031
+    100258: CNT_Face032
+    100260: CNT_Face033
+    100262: CNT_LipCorner001
+    100264: CNT_LipCorner002
+    100266: CNT_LipCorner003
+    100268: CNT_LipCorner004
+    100270: CNT_LipCorner005
+    100272: CNT_LipCorner006
+    100274: CNT_LipCorner007
+    100276: CNT_LipCorner008
+    100278: CNT_LipCorner009
+    100280: CNT_LipCorner010
+    100282: CNT_LipCorner011
+    100284: CNT_LipCorner012
+    100286: CNT_LipCorner031
+    100288: CNT_LipCorner032
+    100290: CNT_LipCorner033
+    100292: CNT_LipCorner034
+    100294: CNT_LipCorner035
+    100296: CNT_LipCorner036
+    100298: PT_ControlPos001
+    100300: PT_ControlPos002
+    100302: PT_ControlPos004
+    100304: PT_ControlPos005
+    100306: PT_ControlPos006
+    100308: PT_ControlPos007
+    100310: PT_ControlPos008
+    100312: PT_ControlPos009
+    100314: PT_ControlPos010
+    100316: PT_ControlPos011
+    100318: PT_ControlPos012
+    100320: PT_ControlPos013
+    100322: PT_ControlPos014
+    100324: PT_ControlPos015
+    100326: PT_ControlPos016
+    100328: PT_ControlPos017
+    100330: PT_ControlPos018
+    100332: PT_ControlPos019
+    100334: PT_ControlPos020
+    100336: PT_ControlPos021
+    100338: PT_ControlPos022
+    100340: PT_ControlPos023
+    100342: PT_ControlPos053
+    100344: PT_ControlPos054
+    100346: PT_ControlPos055
+    100348: PT_ControlPos056
+    100350: PT_ControlPos057
+    100352: PT_ControlPos058
+    100354: PT_ControlPos059
+    100356: PT_ControlPos060
+    100358: PT_ControlPos061
+    100360: PT_ControlPos062
+    100362: PT_ControlPos063
+    100364: PT_ControlPos064
+    100366: PT_ControlPos065
+    100368: PT_ControlPos066
+    100370: PT_ControlPos067
+    100372: PT_ControlRoot001
+    100374: PT_ControlRoot002
+    100376: PT_ControlRoot004
+    100378: PT_ControlRoot005
+    100380: PT_ControlRoot006
+    100382: PT_ControlRoot007
+    100384: PT_ControlRoot008
+    100386: PT_ControlRoot009
+    100388: PT_ControlRoot010
+    100390: PT_ControlRoot011
+    100392: PT_ControlRoot012
+    100394: PT_ControlRoot013
+    100396: PT_ControlRoot014
+    100398: PT_ControlRoot015
+    100400: PT_ControlRoot016
+    100402: PT_ControlRoot017
+    100404: PT_ControlRoot018
+    100406: PT_ControlRoot019
+    100408: PT_ControlRoot020
+    100410: PT_ControlRoot021
+    100412: PT_ControlRoot022
+    100414: PT_ControlRoot023
+    100416: PT_ControlRoot053
+    100418: PT_ControlRoot054
+    100420: PT_ControlRoot055
+    100422: PT_ControlRoot056
+    100424: PT_ControlRoot057
+    100426: PT_ControlRoot058
+    100428: PT_ControlRoot059
+    100430: PT_ControlRoot060
+    100432: PT_ControlRoot061
+    100434: PT_ControlRoot062
+    100436: PT_ControlRoot063
+    100438: PT_ControlRoot064
+    100440: PT_ControlRoot065
+    100442: PT_ControlRoot066
+    100444: PT_ControlRoot067
+    100446: //RootNode
+    100448: wolf_low(1)
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Finger0
+    400014: Bip001 L Finger0Nub
+    400016: Bip001 L Finger1
+    400018: Bip001 L Finger1Nub
+    400020: Bip001 L Finger2
+    400022: Bip001 L Finger2Nub
+    400024: Bip001 L Finger3
+    400026: Bip001 L Finger3Nub
+    400028: Bip001 L Foot
+    400030: Bip001 L Forearm
+    400032: Bip001 L Hand
+    400034: Bip001 L HorseLink
+    400036: Bip001 L Thigh
+    400038: Bip001 L Toe0
+    400040: Bip001 L Toe0Nub
+    400042: Bip001 L Toe1
+    400044: Bip001 L Toe1Nub
+    400046: Bip001 L Toe2
+    400048: Bip001 L Toe2Nub
+    400050: Bip001 L Toe3
+    400052: Bip001 L Toe3Nub
+    400054: Bip001 L UpperArm
+    400056: Bip001 Neck
+    400058: Bip001 Neck1
+    400060: Bip001 Pelvis
+    400062: Bip001 Ponytail1
+    400064: Bip001 Ponytail11
+    400066: Bip001 Ponytail1Nub
+    400068: Bip001 Ponytail2
+    400070: Bip001 Ponytail21
+    400072: Bip001 Ponytail2Nub
+    400074: Bip001 R Calf
+    400076: Bip001 R Clavicle
+    400078: Bip001 R Finger0
+    400080: Bip001 R Finger0Nub
+    400082: Bip001 R Finger1
+    400084: Bip001 R Finger1Nub
+    400086: Bip001 R Finger2
+    400088: Bip001 R Finger2Nub
+    400090: Bip001 R Finger3
+    400092: Bip001 R Finger3Nub
+    400094: Bip001 R Foot
+    400096: Bip001 R Forearm
+    400098: Bip001 R Hand
+    400100: Bip001 R HorseLink
+    400102: Bip001 R Thigh
+    400104: Bip001 R Toe0
+    400106: Bip001 R Toe0Nub
+    400108: Bip001 R Toe1
+    400110: Bip001 R Toe1Nub
+    400112: Bip001 R Toe2
+    400114: Bip001 R Toe2Nub
+    400116: Bip001 R Toe3
+    400118: Bip001 R Toe3Nub
+    400120: Bip001 R UpperArm
+    400122: Bip001 Spine
+    400124: Bip001 Spine1
+    400126: Bip001 Spine2
+    400128: Bip001 Spine3
+    400130: Bip001 Tail
+    400132: Bip001 Tail1
+    400134: Bip001 Tail2
+    400136: Bip001 Tail3
+    400138: Bip001 TailNub
+    400140: Bip001 Xtra01
+    400142: Bip001 Xtra01Nub
+    400144: Bip001 Xtra02
+    400146: Bip001 Xtra02Nub
+    400148: Bip001 Xtra03
+    400150: Bip001 Xtra03Nub
+    400152: Bip001 Xtra04
+    400154: Bip001 Xtra04Nub
+    400156: Bip001 Xtra05
+    400158: Bip001 Xtra05Nub
+    400160: Bip001 Xtra05Opp
+    400162: Bip001 Xtra05OppNub
+    400164: bn_brow_L
+    400166: bn_brow_R
+    400168: bn_cheek_L
+    400170: bn_cheek_L_nub
+    400172: bn_cheek_R
+    400174: bn_cheek_R_nub
+    400176: bn_eye_L
+    400178: bn_eye_L_nub
+    400180: bn_eye_R
+    400182: bn_eye_R_nub
+    400184: bn_eyebrow_L_nub
+    400186: bn_eyebrow_R_nub
+    400188: bn_jaw
+    400190: bn_jaw_nub
+    400192: bn_lowerlid_L
+    400194: bn_lowerlid_L_nub
+    400196: bn_lowerlid_R
+    400198: bn_lowerlid_R_nub
+    400200: bn_naso_L
+    400202: bn_naso_L_nub
+    400204: bn_naso_R
+    400206: bn_naso_R_nub
+    400208: bn_nose_L
+    400210: bn_nose_L_nub
+    400212: bn_nose_R
+    400214: bn_nose_R_nub
+    400216: bn_upperlid_L
+    400218: bn_upperlid_L_nub
+    400220: bn_upperlid_R
+    400222: bn_upperlid_R_nub
+    400224: CNT_Face002
+    400226: CNT_Face003
+    400228: CNT_Face004
+    400230: CNT_Face005
+    400232: CNT_Face006
+    400234: CNT_Face009
+    400236: CNT_Face010
+    400238: CNT_Face011
+    400240: CNT_Face012
+    400242: CNT_Face013
+    400244: CNT_Face025
+    400246: CNT_Face026
+    400248: CNT_Face027
+    400250: CNT_Face028
+    400252: CNT_Face029
+    400254: CNT_Face030
+    400256: CNT_Face031
+    400258: CNT_Face032
+    400260: CNT_Face033
+    400262: CNT_LipCorner001
+    400264: CNT_LipCorner002
+    400266: CNT_LipCorner003
+    400268: CNT_LipCorner004
+    400270: CNT_LipCorner005
+    400272: CNT_LipCorner006
+    400274: CNT_LipCorner007
+    400276: CNT_LipCorner008
+    400278: CNT_LipCorner009
+    400280: CNT_LipCorner010
+    400282: CNT_LipCorner011
+    400284: CNT_LipCorner012
+    400286: CNT_LipCorner031
+    400288: CNT_LipCorner032
+    400290: CNT_LipCorner033
+    400292: CNT_LipCorner034
+    400294: CNT_LipCorner035
+    400296: CNT_LipCorner036
+    400298: PT_ControlPos001
+    400300: PT_ControlPos002
+    400302: PT_ControlPos004
+    400304: PT_ControlPos005
+    400306: PT_ControlPos006
+    400308: PT_ControlPos007
+    400310: PT_ControlPos008
+    400312: PT_ControlPos009
+    400314: PT_ControlPos010
+    400316: PT_ControlPos011
+    400318: PT_ControlPos012
+    400320: PT_ControlPos013
+    400322: PT_ControlPos014
+    400324: PT_ControlPos015
+    400326: PT_ControlPos016
+    400328: PT_ControlPos017
+    400330: PT_ControlPos018
+    400332: PT_ControlPos019
+    400334: PT_ControlPos020
+    400336: PT_ControlPos021
+    400338: PT_ControlPos022
+    400340: PT_ControlPos023
+    400342: PT_ControlPos053
+    400344: PT_ControlPos054
+    400346: PT_ControlPos055
+    400348: PT_ControlPos056
+    400350: PT_ControlPos057
+    400352: PT_ControlPos058
+    400354: PT_ControlPos059
+    400356: PT_ControlPos060
+    400358: PT_ControlPos061
+    400360: PT_ControlPos062
+    400362: PT_ControlPos063
+    400364: PT_ControlPos064
+    400366: PT_ControlPos065
+    400368: PT_ControlPos066
+    400370: PT_ControlPos067
+    400372: PT_ControlRoot001
+    400374: PT_ControlRoot002
+    400376: PT_ControlRoot004
+    400378: PT_ControlRoot005
+    400380: PT_ControlRoot006
+    400382: PT_ControlRoot007
+    400384: PT_ControlRoot008
+    400386: PT_ControlRoot009
+    400388: PT_ControlRoot010
+    400390: PT_ControlRoot011
+    400392: PT_ControlRoot012
+    400394: PT_ControlRoot013
+    400396: PT_ControlRoot014
+    400398: PT_ControlRoot015
+    400400: PT_ControlRoot016
+    400402: PT_ControlRoot017
+    400404: PT_ControlRoot018
+    400406: PT_ControlRoot019
+    400408: PT_ControlRoot020
+    400410: PT_ControlRoot021
+    400412: PT_ControlRoot022
+    400414: PT_ControlRoot023
+    400416: PT_ControlRoot053
+    400418: PT_ControlRoot054
+    400420: PT_ControlRoot055
+    400422: PT_ControlRoot056
+    400424: PT_ControlRoot057
+    400426: PT_ControlRoot058
+    400428: PT_ControlRoot059
+    400430: PT_ControlRoot060
+    400432: PT_ControlRoot061
+    400434: PT_ControlRoot062
+    400436: PT_ControlRoot063
+    400438: PT_ControlRoot064
+    400440: PT_ControlRoot065
+    400442: PT_ControlRoot066
+    400444: PT_ControlRoot067
+    400446: //RootNode
+    400448: wolf_low(1)
+    4300000: wolf_low(1)
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: wolf_low(1)
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

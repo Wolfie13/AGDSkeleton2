@@ -32,7 +32,9 @@ public class ItemInventory : MonoBehaviour {
 		i.transform.localPosition = Vector3.zero;
 		//Disable collision with the collected item.
 		foreach(Collider c in i.GetComponents<Collider> ()) {
-			c.enabled = false;
+			if (!c.isTrigger) {
+				c.enabled = false;
+			}
 		}
 		items.Add (i);
 		SelectItem (items.Count - 1);

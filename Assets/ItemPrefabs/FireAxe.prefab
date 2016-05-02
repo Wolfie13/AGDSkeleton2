@@ -12,6 +12,8 @@ GameObject:
   - 65: {fileID: 6551416}
   - 23: {fileID: 2351416}
   - 114: {fileID: 11400704}
+  - 95: {fileID: 9558826}
+  - 54: {fileID: 5443832}
   m_Layer: 0
   m_Name: FireAxe
   m_TagString: Untagged
@@ -26,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 389.76001, y: 10.7600002, z: 1171.64001}
+  m_LocalPosition: {x: -12.0900002, y: 1.86000001, z: -1.01999998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,6 +60,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151416}
   m_Mesh: {fileID: 4300000, guid: b1be07b6afa89504c9efb75b7d36d183, type: 3}
+--- !u!54 &5443832
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151416}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &6551416
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -68,8 +85,23 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: .400000006, y: .300000012, z: .200000003}
+  m_Center: {x: 0, y: .400000006, z: 0}
+--- !u!95 &9558826
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 74001ae490bfeed469d7b893cf862f18, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400704
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -81,6 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7c31797314a35418ef9579bdfdbdf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 9558826}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
