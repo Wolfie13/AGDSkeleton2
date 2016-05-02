@@ -13,6 +13,10 @@ public class ItemInventory : MonoBehaviour {
 	
 	}
 
+	void Deselect() {
+		items [selectedItem].gameObject.SetActive (false);
+	}
+
 	void SelectItem(int num) {
 		if (items.Count > num) {
 			items[selectedItem].gameObject.SetActive(false);
@@ -28,7 +32,9 @@ public class ItemInventory : MonoBehaviour {
 		i.transform.localPosition = Vector3.zero;
 		//Disable collision with the collected item.
 		foreach(Collider c in i.GetComponents<Collider> ()) {
-			c.enabled = false;
+			if (!c.isTrigger) {
+				c.enabled = false;
+			}
 		}
 		items.Add (i);
 		SelectItem (items.Count - 1);
@@ -53,10 +59,14 @@ public class ItemInventory : MonoBehaviour {
 			}
 		}
 
+		if (Input.GetKeyDown (KeyCode.Alpha1)) {
+			Deselect();
+		}
+
 		//Check all the number keys on the keyboard.
-		for ( int i = 0; i < 10; ++i )
+		for ( int i = 0; i < 9; ++i )
 		{
-			if ( Input.GetKeyDown( KeyCode.Alpha1 + i ) )
+			if ( Input.GetKeyDown( KeyCode.Alpha2 + i ) )
 			{
 				SelectItem(i);
 			}
