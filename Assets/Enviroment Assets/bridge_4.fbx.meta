@@ -42,6 +42,7 @@ ModelImporter:
     2300000: pCube87
     3300000: pCube87
     4300000: pCube87
+    6400000: pCube87
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -64,7 +65,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

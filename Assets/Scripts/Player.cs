@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!debugMode) {
-			if (!debugMode) {
+			if (!debugMode) { 
 				Application.LoadLevel ("DeathScreen");
 			}
 		}
