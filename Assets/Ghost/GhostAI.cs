@@ -25,12 +25,9 @@ public class GhostAI : MonoBehaviour {
 		nav.SetDestination (player.transform.position);
 
 		if (distanceToPlayer < 10) {
-			nav.speed = 4;
 			if (distanceToPlayer < 1) {
 				Attack ();
 			}
-		} else {
-			nav.speed = 9;
 		}
 	}
 
