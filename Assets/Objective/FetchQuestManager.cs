@@ -15,7 +15,7 @@ public class FetchQuestManager : MonoBehaviour {
 		ghost = GameObject.FindObjectOfType<GhostAI> ();
 	}
 
-	public void Collect() {
+	public void Collect(Vector3 pos) {
 		itemsCollected++;
 		display = true;
 		displayTime = 2f;
@@ -25,17 +25,17 @@ public class FetchQuestManager : MonoBehaviour {
 			//Enable Ghost
 			ghost.SetSpeed(4);
 			//Play Spooky Noise 1
-			AudioSource.PlayClipAtPoint(spookNoises[0], ghost.transform.position);
+			AudioSource.PlayClipAtPoint(spookNoises[0], pos);
 			break;
 		case 2:
 			//Play Spooky Noise 2
-			AudioSource.PlayClipAtPoint(spookNoises[1], ghost.transform.position);
+			AudioSource.PlayClipAtPoint(spookNoises[1], pos);
 			//Increase ghost speed
 			ghost.SetSpeed(5);
 			break;
 		case 3:
 			//Play spooky noise 3
-			AudioSource.PlayClipAtPoint(spookNoises[2], ghost.transform.position);
+			AudioSource.PlayClipAtPoint(spookNoises[2], pos);
 			//Enable Escape
 			ghost.SetSpeed(6);
 			escapeZone.SetActive (true);

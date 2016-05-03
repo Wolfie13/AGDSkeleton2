@@ -16,7 +16,7 @@ public class FetchQuestItem : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.GetComponent<Player> () != null) {
 			FetchQuestManager fqm = GameObject.FindObjectOfType<FetchQuestManager>();
-			fqm.Collect();
+			fqm.Collect(this.transform.position);
 			Destroy(this.gameObject);
 		}
 	}
